@@ -9,7 +9,7 @@
       </header>
       <main class="w-full flex-1 flex flex-col overflow-auto">
         <div class="flex flex-1 justify-between">
-          <div class="flex pt-20 pl-5 flex-col gap-6">
+          <div class="flex sm:pt-20 pt-0 pl-5 flex-col gap-6">
             <h1 class="text-[52px] leading-[64px] font-semibold text-left">
               Supercharge Retail<br> Engagements with<br>
               AI-Driven Messaging
