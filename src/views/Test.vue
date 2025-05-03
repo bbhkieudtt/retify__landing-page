@@ -21,7 +21,7 @@
           <img class="flex-shrink-0 main-image" :src="img_main" alt="Retify AI messaging illustration">
         </div>
       </main>
-      <footer class="flex text-[12px] leading-[12px] font-medium justify-between items-center flex-shrink-0">
+      <footer class="flex text-xs leading-4 font-medium justify-between items-center flex-shrink-0">
         <p>© Retify 2025</p>
         <div class="flex gap-3">
           <a v-for="item in list_item" :key="item" href="#" class="hover:underline">{{ item }}</a>
