@@ -18,7 +18,7 @@
                 Turn every chat into a sale — Retify empowers retail businesses to connect, convert, and thrive.
               </p>
             </div>
-            <img class="flex-shrink-0" :src="img_main" alt="Retify AI messaging illustration">
+            <img class="flex-shrink-0 main-image" :src="img_main" alt="Retify AI messaging illustration">
           </div>
         </main>
         <footer class="flex text-[12px] leading-[12px] font-medium justify-between items-center flex-shrink-0">
@@ -51,5 +51,11 @@
     width: 80%;
     padding-left: 150px;
     padding-right: 150px;
+  }
+  
+  .main-image {
+    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures the entire image is visible without cropping */
   }
   </style>
