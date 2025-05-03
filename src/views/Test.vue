@@ -2,7 +2,8 @@
   <div class="w-dvw h-dvh flex justify-center">
     <div class="container h-dvh flex flex-col py-6 px-container overflow-hidden gap-20">
       <header class="w-full flex items-center justify-between px-5 flex-shrink-0">
-        <logo></logo>
+        <img :src="logo_img" class="w-28" alt="Logo" />
+         <!-- <Logo/> -->
         <h3 class="text-sm font-semibold leading-[22px]">
           Coming Soon
         </h3>
@@ -35,9 +36,10 @@
 import { ref } from 'vue';
 
 // *Images
-import logo_img from '@/assets/imgs/logox2.png';
+import logo_img from '@/assets/imgs/logo_img.png';
 import img_main from '@/assets/imgs/imgx2.png';
-import logo from '@/components/icon/Logo.vue'
+import logo from '@/components/icon/Logo.svg';
+import Logo from '@/components/icon/Logo.vue';
 
 // *Footer links
 const list_item = ref([
