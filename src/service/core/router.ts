@@ -12,11 +12,10 @@ import type { Cb } from '@/service/interface'
  * dựa theo config của env
  */
 export const router = createRouter({
-  history: import.meta.env.VITE_APP_HISTORY === 'web' ?
-    createWebHistory(import.meta.env.BASE_URL) :
-    createWebHashHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL), // 👈 chỉ dùng history mode
   routes
 })
+
 
 export const loadRouter = (APP: App, proceed: Cb) => {
   loadMiddleware(router)

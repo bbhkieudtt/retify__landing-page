@@ -4,7 +4,7 @@ const source: Language = {
     name: 'Tiếng Việt',
     v1: {
         common: {
-            title: 'Buddha View',
+            title: 'Retify',
             loading: 'Đang tải dữ liệu ...',
             incoming_feature: 'Tính năng đang được phát triển!',
         },
